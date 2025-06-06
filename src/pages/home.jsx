@@ -1,11 +1,11 @@
 import React from 'react'
 
-const home = () => {
+const Home = () => {
   return (
-    <div>
+    <div className='bg-pink-300-200 min-h-screen flex items-center justify-center'>
       <h1>welcome to home </h1>
     </div>
   )
 }
 
-export default home
+export default Home
